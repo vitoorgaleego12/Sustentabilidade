@@ -1,0 +1,113 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo básico do corpo */
+body {
+    font-family: Arial, sans-serif;
+    color: #333; /* Texto escuro no modo claro */
+    background-color: #ffffff; /* Fundo branco no modo claro */
+    line-height: 1.6;
+    background-image: url('conteudo/fundo.jpg'); /* Imagem de fundo */
+    background-repeat: repeat; /* Imagem de fundo se repete */
+    background-size: auto;
+    background-position: left right;
+     /* Mantém o tamanho original da imagem */
+     /* A imagem de fundo começa no canto superior esquerdo */
+}
+
+
+header {
+    background-color: #4CAF50; /* Verde mais forte */
+    color: #fff; /* Texto branco no cabeçalho */
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+}
+
+button {
+    background-color: #fff; /* Fundo branco do botão no modo claro */
+    color: #4CAF50; /* Texto verde do botão no modo claro */
+    border: 1px solid #4CAF50; /* Borda verde do botão no modo claro */
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4CAF50; /* Fundo verde do botão no hover */
+    color: #fff; /* Texto branco do botão no hover */
+}
+
+main {
+    padding: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #ffffff; /* Fundo branco no conteúdo */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333; /* Títulos escuros no modo claro */
+}
+
+.image-container {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.image-container img {
+    width: 80%; /* Garantir que todas as imagens tenham a mesma largura */
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #4CAF50; /* Fundo verde do rodapé */
+    color: #fff; /* Texto branco no rodapé */
+}
+
+/* Tema escuro */
+body.dark-mode {
+    background-color: #121212; /* Fundo escuro */
+    color: #e0e0e0; /* Texto claro */
+    background-image: none; /* Remove a imagem de fundo no modo escuro */
+}
+
+body.dark-mode header {
+    background-color: #1f1f1f; /* Fundo do cabeçalho mais escuro */
+}
+
+body.dark-mode footer {
+    background-color: #1f1f1f; /* Fundo do rodapé mais escuro */
+}
+
+body.dark-mode button {
+    background-color: #333; /* Fundo escuro para o botão */
+    color: #4CAF50; /* Texto verde para o botão */
+    border: 1px solid #4CAF50; /* Borda verde */
+}
+
+body.dark-mode button:hover {
+    background-color: #4CAF50; /* Fundo verde quando o botão é hover */
+    color: #121212; /* Texto escuro no hover */
+}
+
+body.dark-mode h1, body.dark-mode h2 {
+    color: #4CAF50; /* Títulos em verde no modo escuro */
+}
+
+body.dark-mode a {
+    color: #4CAF50; /* Links em verde no modo escuro */
+}
+
+body.dark-mode a:hover {
+    text-decoration: underline;
+}
