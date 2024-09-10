@@ -11,7 +11,7 @@ body {
     color: #333; /* Texto escuro no modo claro */
     background-color: #ffffff; /* Fundo branco no modo claro */
     line-height: 1.6;
-    background-image: url('Sustentabilidade/fundo.jpg');
+    background-image: url('fundo.jpg');
     background-repeat: repeat; /* Imagem de fundo se repete */
     background-size: auto;
     background-position: left right;
