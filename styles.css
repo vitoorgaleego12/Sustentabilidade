@@ -11,7 +11,7 @@ body {
     color: #333; /* Texto escuro no modo claro */
     background-color: #ffffff; /* Fundo branco no modo claro */
     line-height: 1.6;
-    background-image: 'fundo.jpg';
+    background-image: 'Sustentabilidade/fundo.jpg';
     background-repeat: no-repeat; /* Não repete a imagem */
     background-size: cover; /* A imagem cobre toda a área disponível */
     background-position: center center; /* A imagem é centralizada */
