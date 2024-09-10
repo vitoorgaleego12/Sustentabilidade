@@ -12,12 +12,12 @@ body {
     background-color: #ffffff; /* Fundo branco no modo claro */
     line-height: 1.6;
     background-image: url('fundo.jpg');
-    background-repeat: repeat; /* Imagem de fundo se repete */
-    background-size: auto;
-    background-position: left right;
-     /* Mantém o tamanho original da imagem */
-     /* A imagem de fundo começa no canto superior esquerdo */
+    background-repeat: no-repeat; /* Não repete a imagem */
+    background-size: cover; /* A imagem cobre toda a área disponível */
+    background-position: center center; /* A imagem é centralizada */
+    background-attachment: fixed; /* A imagem de fundo não rola com o conteúdo */
 }
+
 
 
 header {
