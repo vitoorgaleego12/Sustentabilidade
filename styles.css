@@ -8,15 +8,16 @@
 /* Estilo básico do corpo */
 body {
     font-family: Arial, sans-serif;
-    color: #333; /* Texto escuro no modo claro */
-    background-color: #ffffff; /* Fundo branco no modo claro */
+    color: #333;
+    background-color: #ffffff;
     line-height: 1.6;
-    background-image: url('Sustentabilidade/fundo.jpg');
-    background-repeat: no-repeat; /* Não repete a imagem */
-    background-size: cover; /* A imagem cobre toda a área disponível */
-    background-position: center center; /* A imagem é centralizada */
-    background-attachment: fixed; /* A imagem de fundo não rola com o conteúdo */
+    background-image: url('fundo.jpg'); /* Caminho relativo correto */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
 }
+
 
 
 
